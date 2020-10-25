@@ -8,7 +8,6 @@ SaaS: HashiCorp Vault container + Monitoring/Debugging and Log management contai
 #### Note: Additional to docker-compose based (default dev env), Vagrant based (vagrant), k8s (k8s-local: minikube, kubespray) based SaaS dev environments we have to have AWS dev env.
 
 
-```
 
 ### Example (run all SaaS services: one docker-compose file for all services):
 
