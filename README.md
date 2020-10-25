@@ -176,11 +176,13 @@ Creating postgresqlha_haproxy_1 ...
 Creating postgresqlha_haproxy_1 ... done
 
 ...
-
+```
 Clean env:
+```
 # cd ./saas/docker/monitoring/ELK ; docker-compose down
 # cd ./saas/docker/monitoring/TIG; docker-compose down
 # cd ./saas/docker/monitoring/SENSU; docker-compose down
 # cd ./saas/docker/messaging; docker-compose down
 # cd ./saas/docker/postgresqlha; docker-compose down
+```
 
