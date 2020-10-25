@@ -3,7 +3,7 @@
 
 Running the whole SaaS infrastructure using docker-compose: 
 
-1. SaaS: HashiCorp Vault container + Monitoring/Debugging and Log management containers: ElasticSearch, Logstash/Fluentd, Kibana, Grafana, InfuxDB, Sensu, etc. + Kafka containers: Kafka cluster (3 containers), Kafka Replicator, Kafka Connect, Schema Registry + Consul cluster (3 containers) + Zookeper cluster (3 containers) + Postgres cluster containers + etc.
+SaaS: HashiCorp Vault container + Monitoring/Debugging and Log management containers: ElasticSearch, Logstash/Fluentd, Kibana, Grafana, InfuxDB, Sensu, etc. + Kafka containers: Kafka cluster (3 containers), Kafka Replicator, Kafka Connect, Schema Registry + Consul cluster (3 containers) + Zookeper cluster (3 containers) + Postgres cluster containers + etc.
 
 #### Note: Additional to docker-compose based (default dev env), Vagrant based (vagrant), k8s (k8s-local: minikube, kubespray) based SaaS dev environments we have to have AWS dev env.
 
